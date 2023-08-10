@@ -1,0 +1,167 @@
+lista de los que igresaran
+pruebas covid
+Formalidades
+
+===============
+
+Arturo mirando Jege de proyecto
+jose luis 
+roger
+Edith
+
+=====
+Cerpru
+interactuarcon tesoria y caja
+depende de las interfaces
+PIDE, SUANT, RENIEC, DISCAPACIDAD, COLEGIOS
+
+un solo sistema de autenticcion
+sistema de auth Denis ordonies -> eso no sentregaran
+nos enregaran usuarios
+
+Nosotros les daremos vinveles de acceso a os roles que nos pasaran
+ debe estra en recursos humanos los usuarios
+ 
+ 
+dos tipo de usuario
+ USER ADMIN SISTEMA
+ USER ALUMNO CEPRU -> alumno temporal debe desarrollar junuy sac
+ 
+ PROCESO 1
+ --pre inscripcion -> sea portal publico te sugiera pago de acuerdo a l tipo de colegio
+ va ver un conjunto de reglas consultar PIDE (validar con PIDE)
+ el colegio define el pago diferenciado
+ seleccion de carrera a postulacion
+ becas por porcentajes
+ 
+ 
+ 
+ PROCESO 2
+ manejar fecha de inicio
+ compromiso de pago TESORERIA definir fecha perriodo de pago vende o no vence(que sea dianmico que ponga la cepru) la fecha debe ser configurabe
+ #eleccionar el tipo de pago
+ poner limite de pago
+ 
+PROCESO 3
+inscripcion va ver becas(no seria mejor de frente a inscripcion)
+esto tiene presentacion de documnetos via web o presencial
+generar documneto
+
+
+PROCESO 4
+ya es alumno cepru
+distribucion de aulas 
+
+ACCEDER AL AULA VIRTUAL
+ver mis datoos
+ver mis comprisos de pago
+previo examen no deberia permitir dar el examen
+
+ ver rresultado de examenes
+ 
+ 
+ 
+ tabal docentes 
+ 
+ 
+ 
+ tabla cursos
+ Curso Grupo horas ambiente(salon) docente
+ auth por uno de la iniq
+ 
+ distrubucion -> el sistema debe hacer la distribucion automatica
+ idCat idDocente aula horario
+ 
+ va ver un check de informacion de parte del encargado
+ 
+ 
+ aulas - disponibles -> obtener dese l tema academico
+ campus/pabellon/piso/ambiente/capacidad/tipo/disponibilidad del aula
+ 
+ 
+ 
+ 
+ 
+ 
+ Re
+
+
+
+
+PARAMETROS DE CONFIGURACION 
+poner cuantos examenes habra que sea configurable
+
+
+Hay un perfil invitado e internet
+
+
+
+ AL APERTURAR EL CICLO DEFINIR LOS CAMPOS O CARACTERISTICAS 
+ dato anio dato ciclo
+ este sera una nueva tabla
+ definir la cantidad de vacantes
+ 
+ 
+ EN EL TEMAS DE EXAMENES
+
+ 
+ en la salida para ADMISION -> realacion de alumnos/pagos/asistencia/grupo/aula/etc
+ 02 salidas exportar en algun formato y dar un endpoint 
+ Condiciones
+ permitir el examen solo si a pagado
+ considerar asitencia
+ esto agrupados por grupos y aulas
+ 
+ en el caso de entreda RECUPERRAR DESDE ADMISION
+ solo puede ver el alumno previo logeo aun sea el ultimo examen
+ 
+ UNA ESPECIE DE RRHH pequenio en  cepru para pagar
+  reporte de pagos en base a las asitencia del docente
+ 
+ registrar notas por cada examen -> recuperado desde admision
+ 
+ 
+ Docente 
+ principal
+ asociado
+ contratado
+ auxiliar
+ 
+ 
+ Hacer los criterios de distrbucion(por edades, dni, etc)
+ 
+
+Moodel herramientas del camopo virtual
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ auth como tipi aplicativo web
+ va ver un sistema de auth en el servidor estaran en una bases de datos donde estara todos perteneciente a la uniq
+ 
+json web token JWT el formato de paso dee end point
+ 
+ termonado la preinscripcionn genaerar compromiso de pago
+ validad el compriso de que el estudiante desea estudiar 
+ 
+ 
+Sugerencia al momento de o juntar, a favor
+
+
+
+lo mas amplio posible lo mas modular posible
+
+cronograma de trabajo
+entregables
+
+proyectotic@uniq.edu.pe
+informatica@uniq.edu.pe
+
+
+
+
